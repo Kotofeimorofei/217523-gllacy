@@ -117,6 +117,7 @@ img {
 	left: -10px;
 	top: 26px;
 	padding-top: 5px;
+	z-index: 1;
 	/* box-shadow:  */
 }
 .sub-menu li{
@@ -692,6 +693,7 @@ body > input[type="radio"] {
 	position: absolute;
 	top: 72px;
 	right: 28px;
+	z-index: 2;
 	outline: 2px solid green;
 }
 .contacts-time{
@@ -705,10 +707,12 @@ body > input[type="radio"] {
 	font-size: 22px;
 	line-height: 24px;
 	font-weight: bold;
+	text-decoration: none;
 	color: #ffffff;
 	float: right;
 	clear: both;
 	margin-top: 4px;
+
 }
 /*  /contacts */
 /* search-form */
